@@ -1,1 +1,1 @@
-# jsexercises
+# exercises 🐱‍🏍🐱‍🏍🐱‍🏍!
