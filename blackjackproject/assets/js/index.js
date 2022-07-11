@@ -21,7 +21,7 @@ function getRandomCard() {
         return 10
     } else if (randomNumber === 1) {
         return 11
-    } else if {
+    } else   {
         return randomNumber
     }
 }
@@ -36,12 +36,14 @@ function startGame() {
 
 function renderGame() {
     cardsEl.textcontent = "Cards: "
-    for (let i = 0; i < cards.length: i++) {
+    for (let i = 0; i < cards.length; i++) {
         cards.textContent += cards[i] + " "
     }
 
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
+        message = "Do you want to draw a New Card!"
+    } else if (sum === 21) {
         message = "You've got BlackJack!"
         hasBlackJack = true
     } else {
